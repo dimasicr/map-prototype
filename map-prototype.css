@@ -2,13 +2,13 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	font-family: 'Open sans', sans-serif;
 }
 /* section css */
 #header {
 	position: absolute;
-	display: inline-table;
 	height: 5%;
-	width: 40%;
+	width: 30%;
 	right: 2%;
 	top: 2%;
 	z-index: 3;
@@ -31,19 +31,27 @@ html, body {
 #header div {
 	display: inline;
 	float: right;
-	background-color: #654654;
+	color: whitesmoke;
+	background-color:  #1D9E0C;
 	height: 100%;
 }
 #header form {
 	outline: none;
 	height: 100%;
 }	
+.searchbox {
+	background-color:#FFFFFF;
+	box-sizing:border-box;
+}
+button[type="submit"]{
+	border: none;
+	background-color:transparent;
+	color: #1D9E0C;
+}
 #header input {
 	height: 100%;
-
-}
-#header  h2 {
-	margin-top: 0;
+	border:none;
+	background-color: #FFFFFF;
 }
 /* footer element*/
 h2, p {

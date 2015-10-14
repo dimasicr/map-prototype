@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Map-Prototype </title>
+	<title> Map | Prototype </title>
 	<!-- Leaflet Map -->
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
@@ -17,27 +17,25 @@
 <body>
 	<div id="header">
 		<div>
-			<form>
-				<input type="search" placeholder="search"> 
-				<span> <i class="fa fa-search"></i> <span>
+			<form class="searchbox">
+				<input type="search" placeholder="Search" />
+				<button type="submit" value="search"> <span> <i class="fa fa-search"></i> <span></button>
 			</form>
-		</div>
-		<div>
-			<h2> Social Mapping Application </h2>
 		</div>
 	</div>
 	<div id="map"> </div>
 	<div id="footer">
-		<div class="footer-div">
+		<div class="footer-div" id="place-desc">
 			<h2> Place name </h2>
 			<p> Short Description </p>
 		</div>
-		<div class="footer-div">
+		<div class="footer-div" id="place-objects">
 			<h2> Place Objects </h2>
 			<p> Assets, development priority site, undesired use, poor appearance </p> 
 		</div>
-		<div class="footer-div">
-		
+		<div class="footer-div" id="place-problems">
+			<h2>Place Problems</h2>
+			<p> Problems, what and why it's happen </p>
 		</div>
 	</div>
 		
